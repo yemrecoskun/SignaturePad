@@ -1,4 +1,4 @@
-# English Readme : [README-EN.MD](https://github.com/yemrecoskun/SignaturePad/master/README-EN.md)
+# English Readme : [README-EN.MD](https://github.com/yemrecoskun/SignaturePad/blob/master/README-EN.md)
 <h1 align="center">Elektronik İmza</h1>
 <p align="center">
 <img width="300px" src="https://github.com/yemrecoskun/SignaturePad/blob/master/ScreenShot/screenshot.png"/>
