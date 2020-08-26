@@ -1,0 +1,55 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="282dp"
+        android:background="@android:color/holo_red_dark">
+        <SignaturePad.SignaturePadCanvasView
+            android:id="@+id/canvasView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:textAlignment="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/clearButton"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/clearText" />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/saveButton"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:text="@string/saveText" />
+        <Button
+            android:layout_marginLeft="90dp"
+            android:textSize="20dp"
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@android:color/white"
+            android:text="@string/cancelText" />
+    </LinearLayout>
+</LinearLayout>
